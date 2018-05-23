@@ -6,8 +6,8 @@ public class two {
 		
 		Scanner sc = new Scanner(System.in);
 
-			System.out.println("월을 입력하세요.");
-			int month = sc.nextInt();
+			System.out.println("년도를 입력하세요.");
+			int year = sc.nextInt();
 
 //			int[] day = new int[12];
 //			day[0] = 31;
@@ -23,16 +23,17 @@ public class two {
 //			day[10] = 30;
 //			day[11] = 31;
 			
-			String weekday;
+			int month;
 			
-			switch (month){
+			switch (year){
 			
-			case 1: 
-				System.out.println("1일은 무슨 요일인가요?");
+			case 2016: 
+				System.out.println("월을 입력하세요.");
 				
-				weekday = sc.next();
+				month = sc.nextInt();
 				
-				if(weekday.equals("일")){
+			if (month == 1) {
+				System.out.println("2016년 1월");
 				System.out.println("SU MO TU WE TH FR SA");
 				System.out.println("--------------------");
 				System.out.println("1  2  3  4  5  6  7");
@@ -40,44 +41,81 @@ public class two {
 				System.out.println("15 16 17 18 19 20 21");
 				System.out.println("22 23 24 25 26 27 28");
 				System.out.println("29 30 31");
-				}else {
+				break;
+			} else if (month == 2) {
+				System.out.println("2016년 2월");
+				System.out.println("SU MO TU WE TH FR SA");
+				System.out.println("--------------------");
+				System.out.println("1  2  3  4  5  6  7");
+				System.out.println("8  9 10 11 12 13  14");
+				System.out.println("15 16 17 18 19 20 21");
+				System.out.println("22 23 24 25 26 27 28");
+				System.out.println("29 30 31");
+				break;
+			} else {
+				System.out.println("잘못 입력하셨습니다.");
+				break;
+			}
+				
+			case 2017:
+				System.out.println("월을 입력하세요.");
+				
+				month = sc.nextInt();
+				
+			if (month == 1) {
+				System.out.println("2017년 1월");
+				System.out.println("SU MO TU WE TH FR SA");
+				System.out.println("--------------------");
+				System.out.println("1  2  3  4  5  6  7");
+				System.out.println("8  9 10 11 12 13  14");
+				System.out.println("15 16 17 18 19 20 21");
+				System.out.println("22 23 24 25 26 27 28");
+				System.out.println("29 30 31");
+				break;
+			} else if (month == 2) {
+				System.out.println("2017년 2월");
+				System.out.println("SU MO TU WE TH FR SA");
+				System.out.println("--------------------");
+				System.out.println("1  2  3  4  5  6  7");
+				System.out.println("8  9 10 11 12 13  14");
+				System.out.println("15 16 17 18 19 20 21");
+				System.out.println("22 23 24 25 26 27 28");
+				System.out.println("29 30 31");
+				break;
+			} else {
+				System.out.println("잘못 입력하셨습니다.");
+				break;
+			}
+				
+			case 2018:
+				System.out.println("월을 입력하세요.");
+				
+				month = sc.nextInt();
+				
+				if (month == 1) {
+					System.out.println("2018년 1월");
+					System.out.println("SU MO TU WE TH FR SA");
+					System.out.println("--------------------");
+					System.out.println("1  2  3  4  5  6  7");
+					System.out.println("8  9 10 11 12 13  14");
+					System.out.println("15 16 17 18 19 20 21");
+					System.out.println("22 23 24 25 26 27 28");
+					System.out.println("29 30 31");
+					break;
+				} else if (month == 2) {
+					System.out.println("2018년 2월");
+					System.out.println("SU MO TU WE TH FR SA");
+					System.out.println("--------------------");
+					System.out.println("1  2  3  4  5  6  7");
+					System.out.println("8  9 10 11 12 13  14");
+					System.out.println("15 16 17 18 19 20 21");
+					System.out.println("22 23 24 25 26 27 28");
+					System.out.println("29 30 31");
+					break;
+				} else {
 					System.out.println("잘못 입력하셨습니다.");
+					break;
 				}
-				
-			case 2:
-				System.out.println("1일은 무슨 요일인가요?");
-				
-				weekday = sc.next();
-				
-				if(weekday.equals("일")){
-					
-					System.out.println("SU MO TU WE TH FR SA");
-					System.out.println("--------------------");
-					System.out.println("1  2  3  4  5  6  7");
-					System.out.println("8  9 10 11 12 13  14");
-					System.out.println("15 16 17 18 19 20 21");
-					System.out.println("22 23 24 25 26 27 28");
-					System.out.println("29 30 31");
-					}else {
-						System.out.println("잘못 입력하셨습니다.");
-					}
-				
-			case 3:
-				System.out.println("1일은 무슨 요일인가요?");
-				
-				weekday = sc.next();
-				
-				if(weekday.equals("일")){
-					System.out.println("SU MO TU WE TH FR SA");
-					System.out.println("--------------------");
-					System.out.println("1  2  3  4  5  6  7");
-					System.out.println("8  9 10 11 12 13  14");
-					System.out.println("15 16 17 18 19 20 21");
-					System.out.println("22 23 24 25 26 27 28");
-					System.out.println("29 30 31");
-					}else {
-						System.out.println("잘못 입력하셨습니다.");
-					}
 			}
 	}
 
